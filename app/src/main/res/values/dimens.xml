@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Define common sizes as dp values -->
+        <dimen name="dp_0_px">0dp</dimen>
+        <dimen name="dp_4_px">4dp</dimen>
+        <dimen name="dp_8_px">8dp</dimen>
+        <dimen name="dp_12_px">12dp</dimen>
+        <dimen name="dp_16_px">16dp</dimen>
+        <dimen name="dp_32_px">32dp</dimen>
+        <dimen name="dp_48_px">48dp</dimen>
+        <dimen name="dp_56_px">56dp</dimen>
+        <dimen name="dp_60_px">60dp</dimen>
+        <dimen name="dp_72_px">72dp</dimen>
+        <dimen name="dp_80_px">80dp</dimen>
+        <dimen name="dp_120_px">120dp</dimen>
+        <dimen name="dp_200_px">200dp</dimen>
+        <dimen name="dp_240_px">240dp</dimen>
+        <dimen name="dp_260_px">260dp</dimen>
+
+        <!-- Define text sizes -->
+        <dimen name="sp_12">12sp</dimen>
+        <dimen name="sp_16">16sp</dimen>
+        <dimen name="sp_20">20sp</dimen>
+
+        <!-- Define button sizes -->
+        <dimen name="button_height">48dp</dimen>
+        <dimen name="button_width">200dp</dimen>
+
+        <!-- Define FloatingActionButton size -->
+        <dimen name="fab_size">56dp</dimen>
+
+        <!-- Define RecyclerView item height -->
+        <dimen name="recycler_item_height">72dp</dimen>
+
+</resources>

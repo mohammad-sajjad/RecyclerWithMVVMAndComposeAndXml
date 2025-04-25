@@ -1,0 +1,34 @@
+[
+  {
+    "category_name": "mountain",
+    "category_image": "https://pixabay.com/get/gaee11b364e1f605c9f7a448af8d1c6a366d7f0666a95ed2b228674909ebd7c260cf56c35451550c8491ba9b623f59e00b60e3ca14ebe5965d02429d74c72027d_640.jpg"
+  },
+  {
+    "category_name": "fruit",
+    "category_image": "https://pixabay.com/get/g6eab3ee9280a7846510c45fb8cfca619d0ec329751b78f52dce991c618e09d78c885cbea77a098c3686c8596db78150a0ee2040ce23f29075defa42a50f3c48a_640.jpg"
+  },
+  {
+    "category_name": "car",
+    "category_image": "https://pixabay.com/get/gd8736e6e3a40ed447d6d810825e29bcc4072022d4cf864972f2c23ce1f98934badf1184ad06a97bd7f31a7fdecc6c80505c1291207c9ed53190a0ebe13ccb962_640.jpg"
+  },
+  {
+    "category_name": "animal",
+    "category_image": "https://pixabay.com/get/g91ddb67adc0444d1282695a391ae3703572a55dfad676866c6e71a5c564fd2b0895b3920790815f07894ed8599e9df460b0b390e0222aa9c313048a41d57ad5b_640.jpg"
+  },
+  {
+    "category_name": "city",
+    "category_image": "https://pixabay.com/get/g378e6f938129aac8b51c56c2095b716e9a5d56abbda5b495bcd0e647e652fe004e456fe11c3039e40ef3df2930640e7490c7ca0dd1ac12c143dabe59e4c1aa0f_640.jpg"
+  },
+  {
+    "category_name": "beach",
+    "category_image": "https://pixabay.com/get/gd1a029ba33001924452cde97be89f6701b1814a663e0d8eb2a07114e3046f344f54d0028d78f63cf7fa754e44ba8803fb61e89930a89ee08527c0890059562fb_640.jpg"
+  },
+  {
+    "category_name": "truck",
+    "category_image": "https://pixabay.com/get/gacffcc45eb67fb07829843179931dc04c66248cee9efdc98eae474517d331e49df826537ac0faba7c733a7bd77289889619ea30d1e9b6b641c110fdd8aa4d9f4_640.jpg"
+  },
+  {
+    "category_name": "forest",
+    "category_image": "https://pixabay.com/get/g79f7a2365d9df3b4cedd138118104cfd1557e2f6472904ad1275ea8952b2b02c8d2a385279719143048265b3ab4eaee3499667c53fa094b0d9274469c532871e_640.jpg"
+  }
+]
