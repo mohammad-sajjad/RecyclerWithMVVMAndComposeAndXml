@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NeoSoftAssignment</string>
+    <string name="title_activity_image_list">ImageListActivity</string>
+    <string name="category_tv">tv</string>
+    <string name="category_audio">audio</string>
+    <string name="category_laptop">laptop</string>
+    <string name="category_mobile">mobile</string>
+    <string name="category_gaming">gaming</string>
+    <string name="category_appliances">appliances</string>
+</resources>
