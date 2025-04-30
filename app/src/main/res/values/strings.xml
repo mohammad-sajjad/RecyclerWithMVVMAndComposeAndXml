@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">BlueApp-xml</string>
     <string name="search_here">Search</string>
+    <string name="floating_button">floatingButton</string>
+    <string name="product_list_recycler_view">product list which contain image and their title with short description</string>
+    <string name="category_slider_image">category slider image</string>
+    <string name="all_products">All products</string>
+    <string name="page_1_25_items">Page 1 (25 items)</string>
+    <string name="a_5_ne_4_nr_3">a = 5\ne = 4\nr = 3</string>
+    <string name="page_info">Page %1$d (%2$d items)</string>
+    <string name="category_tv">tv</string>
+    <string name="category_audio">audio</string>
+    <string name="category_laptop">laptop</string>
+    <string name="category_mobile">mobile</string>
+    <string name="category_gaming">gaming</string>
+    <string name="category_appliances">appliances</string>
+
 </resources>

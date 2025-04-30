@@ -4,15 +4,15 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:padding="24dp"
+    android:padding="@dimen/dp_24_px"
     android:background="?attr/colorSurface"
-    android:elevation="8dp">
+    android:elevation="@dimen/dp_8_px">
 
     <TextView
         android:id="@+id/page_info_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Page 1 (25 items)"
+        tools:text="@string/page_1_25_items"
         android:textAppearance="?attr/textAppearanceHeadlineSmall"
         android:textStyle="bold" />
 
@@ -20,7 +20,7 @@
         android:id="@+id/stats_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        tools:text="a = 5\ne = 4\nr = 3"
+        android:layout_marginTop="@dimen/dp_12_px"
+        tools:text="@string/a_5_ne_4_nr_3"
         android:textAppearance="?attr/textAppearanceBodyLarge" />
 </LinearLayout>

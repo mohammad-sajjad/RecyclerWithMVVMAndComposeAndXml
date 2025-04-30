@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.blueapp_compose"
+    namespace = "com.blueapp_xml"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.blueapp_compose"
+        applicationId = "com.blueapp_xml"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -40,31 +40,35 @@ android {
         jvmTarget = "1.8"
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+    ksp {
+        arg("dagger.fastInit", "true")
+    }
+
 }
 
 dependencies {
-    // AndroidX Core
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    // Networking
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
 
-    // Lifecycle ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
-    implementation (libs.javapoet) // or the latest compatible version
+    implementation (libs.javapoet)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
-    implementation (libs.glide) // Replace with the latest version if needed
+    implementation (libs.glide)
     annotationProcessor(libs.compiler)
 
 
@@ -72,4 +76,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }

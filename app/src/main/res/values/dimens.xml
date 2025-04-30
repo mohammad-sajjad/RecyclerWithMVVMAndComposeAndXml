@@ -6,6 +6,7 @@
         <dimen name="dp_8_px">8dp</dimen>
         <dimen name="dp_12_px">12dp</dimen>
         <dimen name="dp_16_px">16dp</dimen>
+        <dimen name="dp_24_px">24dp</dimen>
         <dimen name="dp_32_px">32dp</dimen>
         <dimen name="dp_48_px">48dp</dimen>
         <dimen name="dp_56_px">56dp</dimen>
@@ -16,6 +17,7 @@
         <dimen name="dp_200_px">200dp</dimen>
         <dimen name="dp_240_px">240dp</dimen>
         <dimen name="dp_260_px">260dp</dimen>
+        <dimen name="dp_280_px">280dp</dimen>
 
         <!-- Define text sizes -->
         <dimen name="sp_12">12sp</dimen>
